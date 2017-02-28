@@ -32,7 +32,7 @@ spec:
         component: kamailio
     spec:
       nodeSelector:
-        cloud.google.com/gke-nodepool: pool-kamailio
+        voiptype: proxy
       hostNetwork: true
       volumes:
         - name: config
